@@ -24,11 +24,3 @@ const App = () => {
 };
 
 export default App;
-
-import {useEffect} from "react";
-import {useState} from "react";
-
-const useLocalStorage = {stateVal,value) =>{ const[curState,setState] = useState(value);
-updateStorage = (key,val) =>{ localStorage.setItem(key,val);
-                            }
-export default useLocalStorage;
